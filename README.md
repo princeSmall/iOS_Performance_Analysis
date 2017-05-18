@@ -89,7 +89,7 @@ Network处理：
 
 * 第一次Core Animation调用：在启动后：UIApplication_resportAppLaunchFinished中调用CA::Transaction：：commit实现第一帧画面的绘制。
 
-####启动时间获取
+#### 启动时间获取
 
 在main.m中：
 <pre>
